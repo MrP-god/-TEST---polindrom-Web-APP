@@ -1,0 +1,83 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root { 
+    --background: white;
+    --primary-elements: #BF9264;
+    --secondary-elements: #6f826a;
+    --highlight: #BAD9A2;
+    --backgrond-secondary: #F7F4D2;
+}
+
+body{
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+main {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    color: var(--primary-elements);
+    font-size: 2.9em;
+}
+
+.ui-container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px var(--secondary-elements);
+}
+
+.ui-container p {
+    margin-top: 15px;
+    font-size: 1.01rem;
+}
+
+.fields-div {
+    margin-top: 10px;
+    
+}
+
+#result {
+    display: none;
+    color: var(--primary-elements);
+}
+
+.rule-div {
+    height: 30%;
+    margin-top: 8%;
+    background-color: var(--backgrond-secondary);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.rule-div p {
+    padding-left: 14%;
+    padding-right: 5%;
+    font-size: 1rem;
+}
