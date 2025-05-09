@@ -52,15 +52,27 @@ h1 {
     box-shadow: 5px 5px 10px var(--secondary-elements);
 }
 
-.ui-container p {
+.ui-container label {
     margin-top: 15px;
     font-size: 1.01rem;
 }
 
 .fields-div {
-    margin-top: 10px;
-    
+    margin-top: 10px;   
 }
+
+#check-btn {
+    border: none;
+    background-color: var(--backgrond-secondary);
+    font-size: 1.1rem;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+
+#check-btn:hover {
+    background-color: var(--highlight);
+}
+
 
 #result {
     display: none;
